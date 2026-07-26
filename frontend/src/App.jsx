@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 
-const API_BASE = "http://localhost:5000";
+const API_BASE = "https://planiq-t94m.onrender.com";
 const SESSION_ID = "session_" + Math.random().toString(36).slice(2);
 
 const REGIONS = ["default", "coimbatore", "chennai", "bangalore", "hyderabad", "mumbai", "pune", "delhi", "kochi", "madurai"];
